@@ -1,0 +1,88 @@
+body {
+  width: 100%;
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  height: .4rem;
+  background: #000;
+  position: relative;
+  color: #fff; }
+  header .left {
+    position: absolute;
+    left: .1rem;
+    top: 12%;
+    font-size: .2rem; }
+  header .tit {
+    line-height: .4rem;
+    font-size: .14rem;
+    text-indent: .3rem; }
+  header .right {
+    position: absolute;
+    right: .1rem;
+    top: 12%;
+    font-size: .2rem; }
+
+section {
+  flex: 1;
+  position: relative; }
+  section .mark {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: .5; }
+  section .con {
+    border-radius: 5px;
+    background: #fff;
+    width: 90%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 5%; }
+    section .con .banner {
+      width: 40%;
+      height: auto;
+      margin: .3rem 30% .1rem 30%; }
+      section .con .banner img {
+        width: 100%; }
+    section .con p {
+      text-align: center;
+      line-height: .2rem;
+      font-size: .14rem; }
+    section .con .xin {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin: .1rem 10%; }
+      section .con .xin .item {
+        display: flex;
+        border-bottom: 1px solid #ccc;
+        padding: .1rem 0; }
+        section .con .xin .item .tu {
+          height: auto;
+          width: 8%;
+          margin: 0 .1rem; }
+          section .con .xin .item .tu img {
+            width: 100%; }
+        section .con .xin .item .txt {
+          flex: 7;
+          ouline: none;
+          border: 0; }
+    section .con .loginBtn {
+      width: 80%;
+      margin: .2rem 10%;
+      height: .3rem;
+      line-height: .3rem;
+      text-align: center;
+      color: #fff;
+      border-radius: 5px;
+      background: green; }
+
+/*# sourceMappingURL=style.css.map */
